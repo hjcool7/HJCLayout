@@ -10,6 +10,7 @@
 #define HJCLayout_h
 
 #import "UIView+Layout.h"
-#import "UIView+AutoLayout.h
+#import "UIView+AutoLayout.h"
+#import "HJCLayoutAnchor.h"
 
 #endif /* HJCLayout_h */

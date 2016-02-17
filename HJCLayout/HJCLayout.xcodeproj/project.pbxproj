@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		38CA3B3B1C73184800780E55 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA3B381C73184800780E55 /* UIView+AutoLayout.m */; };
 		38CA3B3C1C73184800780E55 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA3B3A1C73184800780E55 /* UIView+Layout.m */; };
+		38CA3B3F1C744DC100780E55 /* HJCLayoutAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA3B3E1C744DC100780E55 /* HJCLayoutAnchor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,8 @@
 		38CA3B381C73184800780E55 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		38CA3B391C73184800780E55 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		38CA3B3A1C73184800780E55 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		38CA3B3D1C744DC100780E55 /* HJCLayoutAnchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCLayoutAnchor.h; sourceTree = "<group>"; };
+		38CA3B3E1C744DC100780E55 /* HJCLayoutAnchor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCLayoutAnchor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				38CA3B391C73184800780E55 /* UIView+Layout.h */,
 				38CA3B3A1C73184800780E55 /* UIView+Layout.m */,
 				38CA3B361C73183100780E55 /* HJCLayout.h */,
+				38CA3B3D1C744DC100780E55 /* HJCLayoutAnchor.h */,
+				38CA3B3E1C744DC100780E55 /* HJCLayoutAnchor.m */,
 			);
 			path = HJCLayout;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CA3B3C1C73184800780E55 /* UIView+Layout.m in Sources */,
+				38CA3B3F1C744DC100780E55 /* HJCLayoutAnchor.m in Sources */,
 				38CA3B3B1C73184800780E55 /* UIView+AutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +258,7 @@
 				38CA3B351C73181900780E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
