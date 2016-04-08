@@ -36,11 +36,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSLayoutConstraint *)setCenterXConstraint:(CGFloat)constant;
 - (NSLayoutConstraint *)setCenterXConstraint:(CGFloat)constant toView:(UIView *)view;
 - (NSLayoutConstraint *)setCenterXConstraint:(CGFloat)constant relation:(NSLayoutRelation)relation toView:(UIView *)view;
+- (NSLayoutConstraint *)setCenterXConstraint:(CGFloat)constant multiplier:(CGFloat)multiplier relation:(NSLayoutRelation)relation toView:(UIView *)view;
 
 - (NSLayoutConstraint *)setAlignParentCenterY;
 - (NSLayoutConstraint *)setCenterYConstraint:(CGFloat)constant;
 - (NSLayoutConstraint *)setCenterYConstraint:(CGFloat)constant toView:(UIView *)view;
 - (NSLayoutConstraint *)setCenterYConstraint:(CGFloat)constant relation:(NSLayoutRelation)relation toView:(UIView *)view;
+- (NSLayoutConstraint *)setCenterYConstraint:(CGFloat)constant multiplier:(CGFloat)multiplier relation:(NSLayoutRelation)relation toView:(UIView *)view;
 
 - (NSArray<NSLayoutConstraint *> *)setAlignParentCenter;
 - (NSArray<NSLayoutConstraint *> *)setCenterConstraint:(CGPoint)center;
